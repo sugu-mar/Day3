@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>day 3 task</title>
+  </head>
+  <body>
+    <script>
+      //Day 3 Task 1
+
+      // JSON iterated over all for loops (for, for in, for of forEach)
+
+      var json = {
+        student: [
+          {
+            name: "arun",
+            age: "21",
+            departrment: "Mechanical",
+          },
+          {
+            name: "ram",
+            age: "22",
+            departrment: "Civil",
+          },
+          {
+            name: "ravi",
+            age: "22",
+            departrment: "CSC",
+          },
+          {
+            name: "shivam",
+            age: "22",
+            departrment: "ECE",
+          },
+        ],
+      };
+
+      // For loop
+
+      console.log("For loop output:");
+
+      for (var i = 0; i < Object.keys(json.student).length; i++) {
+        console.log(json.student[i]);
+      }
+
+      // For in loop 1
+
+      console.log("For in loop method 1 output:");
+
+      for (const key in json.student) {
+        console.log(json.student[key]);
+      }
+
+      // For in loop 2
+
+      console.log("For in loop method 2 output:");
+
+      for (const key in json.student) {
+        if (Object.hasOwnProperty.call(json.student, key)) {
+          const element = json.student[key];
+          console.log(element);
+        }
+      }
+
+      // For of loop
+
+      console.log("For of loop output:");
+
+      for (const value of json.student) {
+        console.log(value);
+      }
+
+      // For each loop
+
+      console.log("ForEach loop output:");
+
+      json.student.forEach((element) => {
+        console.log(element);
+      });
+
+      //Same output by using all for loops(for refrence)
+
+      // {name: 'arun', age: '21', departrment: 'Mechanical'}
+      // {name: 'ram', age: '22', departrment: 'Civil'}
+      // {name: 'ravi', age: '22', departrment: 'CSC'}
+      // {name: 'shivam', age: '22', departrment: 'ECE'}
+    </script>
+  </body>
+</html>

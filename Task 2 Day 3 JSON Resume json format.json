@@ -1,0 +1,107 @@
+{
+  "Resume": {
+    "name": "Sugumaaran A",
+    "Position": "Full stack developer",
+    "email": "sugumargpt@gmail.com",
+    "phone": "(+91) 9677453566",
+    "location": {
+      "address": "Dr.no:29/3 Mela Veethi Street thirukattupalli",
+      "postalCode": "613104",
+      "city": "Thanjavur ",
+      "countryCode": "IN",
+      "state": "Tamilnadu"
+    },
+    "profiles": [
+      {
+        "LinkedIn": "www.linkedin.com/in/sugumaaran",
+        "Skype": "live:f19b6af2984dc232"
+      }
+    ]
+  },
+  "education": [
+    {
+      "Undergraduate": {
+        "institution": "Star lion college of engineering and technology",
+        "courses": "Bachelor of Mechanical Engineering",
+        "startDate": "2017-06-01",
+        "endDate": "2020-04-30",
+        "cgpa": "6.84"
+      },
+      "Diploma": {
+        "institution": "Government Polytechnic College",
+        "courses": "Diploma in Mechanical Engineering",
+        "startDate": "2014-06-01",
+        "endDate": "2017-04-30",
+        "percentage": "74"
+      },
+      "School": {
+        "institution": "Rev Fr Lourdu Xavier Matric Hr. Sec. School",
+        "courses": "SSLC",
+        "startDate": "2013-06-01",
+        "endDate": "2014-04-30",
+        "percentage": "82"
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "name": "International General Certificate in Occupational Health and Safety certificate",
+      "date": "2022-10-25",
+      "issuer": "NEBOSH"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "beginner",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Auto CAD",
+      "level": "beginner",
+      "keywords": [
+        "Proficiency in 2D,Proficiency in 3D"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": "Website building"
+    }
+  ],
+  "references": [
+    {
+      "name": "Naveen",
+      "reference": "HOD Mechanical engineering"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PLC based Sorting System using Metal Detection",
+      "description": "This project was to create a setup that will decrease human effort and succeed to an extent by using the PLC system to avoid risk,improve accuracy, increase speed of production and reduce the cycle time."
+    }
+  ],
+  "keywords": [
+    "PLC related"
+  ],
+  "startDate": "2017-12-01",
+  "endDate": "2017-04-30",
+  "roles": [
+    "Team lead"
+  ]
+}
